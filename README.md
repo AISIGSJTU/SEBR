@@ -40,7 +40,7 @@ For experiments on CIFAR datasets:
     bash train_vi_SEBR.sh
     bash acc_under_attack.sh
 
-## Acknowedgement
+## Acknowledgement
 
 The Bayesian neural networks frameworks are based on [JavierAntoran/Bayesian-Neural-Networks](https://github.com/JavierAntoran/Bayesian-Neural-Networks) and [xuanqing94/BayesianDefense](https://github.com/xuanqing94/BayesianDefense). 
 
