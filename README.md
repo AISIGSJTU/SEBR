@@ -1,7 +1,7 @@
 # SEBR
 This is the official repository for paper *Robust Bayesian Neural Networks by Spectral Expectation Bound Regularization*, accepted by CVPR 2021 as a poster paper.
 
-# Core Algorithm
+## Core Algorithm
 
 The algorithm for the calculation of SEBR loss is:
 
@@ -25,3 +25,25 @@ The algorithm for the calculation of SEBR loss is:
             tmp += torch.max(1 * eps_W * std_w)
         tmp /= SIMU_TIMES
         return res + tmp + sigma
+
+## Run
+
+For experiments on (Fashion-)MNIST datasets:
+
+    cd mnist
+    python3 SEBR_training.py
+    python3 SEBR_evaluating.py
+
+For experiments on CIFAR datasets:
+
+    cd cifar
+    bash train_vi_SEBR.sh
+    bash acc_under_attack.sh
+
+## Acknowedgement
+
+The Bayesian neural networks frameworks are based on [JavierAntoran/Bayesian-Neural-Networks](https://github.com/JavierAntoran/Bayesian-Neural-Networks) and [xuanqing94/BayesianDefense](https://github.com/xuanqing94/BayesianDefense). 
+
+## Cite
+
+TBD
