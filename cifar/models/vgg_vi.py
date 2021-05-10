@@ -36,7 +36,7 @@ class VGG(nn.Module):
         out = out.view(out.size(0), -1)
         out, kl = self.classifier.forward(out)
         kl_sum += kl
-        return out, kl
+        return out, kl_sum
 
     def _make_layers(self, cfg):
         layers = []
