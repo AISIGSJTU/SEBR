@@ -1,5 +1,5 @@
 # SEBR
-This is the official repository for paper *Robust Bayesian Neural Networks by Spectral Expectation Bound Regularization*, accepted by CVPR 2021 as a poster paper.
+This is the official repository for paper [Robust Bayesian Neural Networks by Spectral Expectation Bound Regularization](https://openaccess.thecvf.com/content/CVPR2021/html/Zhang_Robust_Bayesian_Neural_Networks_by_Spectral_Expectation_Bound_Regularization_CVPR_2021_paper.html), accepted by CVPR 2021 as a poster paper.
 
 ## Core Algorithm
 
