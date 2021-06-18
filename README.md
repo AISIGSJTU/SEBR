@@ -46,4 +46,11 @@ The Bayesian neural networks frameworks are based on [JavierAntoran/Bayesian-Neu
 
 ## Cite
 
-TBD
+    @InProceedings{Zhang_2021_CVPR,
+        author    = {Zhang, Jiaru and Hua, Yang and Xue, Zhengui and Song, Tao and Zheng, Chengyu and Ma, Ruhui and Guan, Haibing},
+        title     = {Robust Bayesian Neural Networks by Spectral Expectation Bound Regularization},
+        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+        month     = {June},
+        year      = {2021},
+        pages     = {3815-3824}
+    }
